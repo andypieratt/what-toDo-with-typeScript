@@ -6,18 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="/dist/index.js"></script>
   <title>Document</title>
-  <style>
-    #list {
-      list-style: none;
-      padding: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="/dist/styles.css">
 </head>
 <body>
+  <nav class="navbar">
+    <header>
+      <h1 class="center">TypeScript To-Do List</h1>
+      <h3 class="center">Add And Complete Items From Your Personal To-Do List</h3>
+    </header>
+  </nav>
+
   <ul id="list"></ul>
   <form id="new-task-form">
     <input type="text" id="new-task-title">
     <button type="submit">Add</button>
   </form>
+
+  <footer>
+    <h6 class="center">Andrew Pieratt</h6>
+    <p class="center">With guidance from Web Dev Simplified</p>
+  </footer>
 </body>
 </html>
